@@ -10,6 +10,9 @@
 
 module.exports.routes = {
 
+  //books
+  'GET /books': 'BooksController.findAll'
+
 
   /***************************************************************************
   *                                                                          *
