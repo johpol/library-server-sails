@@ -11,7 +11,8 @@
 module.exports.routes = {
 
   //books
-  'GET /books': 'BooksController.findAll'
+  'GET /books': 'BooksController.findAll',
+  'DELETE /books/:id': 'BooksController.deleteBook'
 
 
   /***************************************************************************
